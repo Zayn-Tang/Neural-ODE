@@ -1,9 +1,8 @@
-# STGODE
-This is an implementation of [Spatial-Temporal Graph ODE Networks for Traffic Flow Forecasting](https://arxiv.org/abs/2106.12931) 
+# ODE
 
 ## Run
 ```
-python run_stode.py
+python run_ode.py
 ```
 
 ## Requirements
@@ -15,17 +14,8 @@ python run_stode.py
 ## Dataset
 The datasets used in our paper are collected by the Caltrans Performance Measurement System(PeMS). Please refer to [STSGCN (AAAI2020)](https://github.com/Davidham3/STSGCN) for the download url.
 
-## Reference
-Please cite our paper if you use the model in your own work:
-```
-@inproceedings{fang2021spatial,
-  title={Spatial-Temporal Graph ODE Networks for Traffic Flow Forecasting},
-  author={Fang, Zheng and Long, Qingqing and Song, Guojie and Xie, Kunqing},
-  booktitle={Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
-  pages={364--373},
-  year={2021}
-}
-```
+Download dataset and put it in path `./data`.
+
 
 
 
